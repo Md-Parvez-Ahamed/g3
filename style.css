@@ -56,7 +56,6 @@ nav li a{
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
-    border:1px solid black;
 }
 
 .banner-title{
@@ -70,4 +69,37 @@ nav li a{
     font-weight: 400;
     line-height: 26px;
 }
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
 /* Banner css End */
+
+
+/* Responsive media quires */
+
+/* mobile device start */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* mobile device end */
+/* tablet or medium  device start */
+
+@media screen and (min-width:576px) and (max-width:990px) {
+    
+    header{
+        padding: 50px;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium  device start */
